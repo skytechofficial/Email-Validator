@@ -1,0 +1,45 @@
+body {
+    font-family:poppins;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* width: 100%; */
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #message {
+    opacity: 100%;
+    width: 2%;
+  }
+  
